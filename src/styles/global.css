@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+button,
+input,
+textarea button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.text-xl{
+  line-height: 1.25rem !important;
+}
+
+textarea::-webkit-scrollbar {
+  width: 3px; /* width of the entire scrollbar */
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #eee; /* color of the tracking area */
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(163, 163, 163); /* color of the scroll thumb */
+}
